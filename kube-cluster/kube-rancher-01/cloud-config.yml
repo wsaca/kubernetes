@@ -11,13 +11,11 @@ rancher:
   state:
     fstype: auto
     dev: LABEL=RANCHER_STATE
-    autoformat:
-      - /dev/sda
   network:
     interfaces:
       eth0:
         address: 192.168.0.200/24
-#        gateway: 192.168.0.150
+        gateway: 192.168.0.150
 #        mtu: 1500
         dhcp: false
     dns:
