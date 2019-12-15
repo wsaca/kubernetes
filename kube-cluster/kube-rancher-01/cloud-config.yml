@@ -8,9 +8,9 @@ ssh_authorized_keys:
 #      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC72ojJ7+r3HzPtbq1CGuVERC0qeDwASwBlr88pX3odP/ffqQrnJsBksDYHyYLATZUhPWUOtP3F9AbBXWqkW0WNQ7nL90Ac/N3gMZY19WvYEE8In53DrJn0R4zAEYUv1JgFY7tTSqk9dMIK1GEEb/uR1kcBSUy9puTo6Dnz2n3kZGjj8SOIabKJwQUmQn7+uKmy7yF4drdyhNQnrdjW4PmnGxoaPdaaFRTRBkSlEk278vqZDfVXGz1A/5WIwris0JmYuV4Rbzbf3tzbxLoSbwbEKDv88Tm23/iWGZjkeMT+SbLy/wb+Vv1/ITKEZzDtrwLVS7++kjgua1sZt1xpodBl wisma@DESKTOP-GRFMUGQ
 rancher:
   console: default
-#  state:
-#    fstype: auto
-#    dev: LABEL=RANCHER_STATE
+  state:
+    fstype: auto
+    dev: LABEL=RANCHER_STATE
 #    autoformat:
 #      - /dev/sda
   network:
