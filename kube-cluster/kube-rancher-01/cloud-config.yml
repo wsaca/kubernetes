@@ -15,7 +15,7 @@ write_files:
       wait-for-docker
       docker run -d --restart=unless-stopped -p 8080:80 -p 8443:443 rancher/rancher
 rancher:
-  console: centos
+  console: default
   state:
     fstype: auto
     dev: LABEL=RANCHER_STATE
