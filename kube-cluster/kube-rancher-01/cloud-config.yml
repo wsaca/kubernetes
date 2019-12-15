@@ -24,3 +24,10 @@ rancher:
       nameservers:
         - 8.8.8.8
         - 8.8.4.4
+  services:
+    rancher:
+      image: rancher/rancher
+      restart: always
+      ports:
+        - 8080:80
+        - 8443:443
