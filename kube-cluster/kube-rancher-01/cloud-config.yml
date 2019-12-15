@@ -11,6 +11,8 @@ rancher:
   state:
     fstype: auto
     dev: LABEL=RANCHER_STATE
+    autoformat:
+      - /dev/sda
   network:
     interfaces:
       eth0:
